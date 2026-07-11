@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#0D0D1A"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+
+    <!-- Outer shield glow -->
+    <path
+        android:fillColor="#1A1545"
+        android:pathData="M54,16 L80,26 L80,52 Q80,70 54,84 Q28,70 28,52 L28,26 Z" />
+
+    <!-- Main shield body -->
+    <path
+        android:fillColor="#534AB7"
+        android:pathData="M54,20 L77,29.5 L77,52 Q77,68 54,80.5 Q31,68 31,52 L31,29.5 Z" />
+
+    <!-- Inner shield highlight -->
+    <path
+        android:fillColor="#6E63CC"
+        android:pathData="M54,24 L73,32 L73,52 Q73,64 54,75 L54,24 Z"
+        android:fillAlpha="0.4" />
+
+    <!-- Checkmark / tick inside shield -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M43,52 L50,59 L65,44"
+        android:fillColor="#00000000" />
+
+    <!-- Teal accent dot — bottom right of shield -->
+    <path
+        android:fillColor="#1DB48B"
+        android:pathData="M72,68m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+</vector>

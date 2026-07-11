@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Never back up threat data or device ID to cloud -->
+        <exclude domain="sharedpref" path="aegis_prefs" />
+        <exclude domain="sharedpref" path="aegis_blocklist" />
+        <exclude domain="database"   path="aegis_db" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="aegis_prefs" />
+    </device-transfer>
+</data-extraction-rules>

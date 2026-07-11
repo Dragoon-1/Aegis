@@ -1,0 +1,80 @@
+# ═══════════════════════════════════════════════════════
+#  AEGIS — .gitignore
+# ═══════════════════════════════════════════════════════
+
+# ── Secrets — NEVER commit these ────────────────────────
+.env
+*.env
+.env.local
+.env.production
+
+# Android signing keys
+*.jks
+*.keystore
+key.properties
+
+# Blockchain private keys
+aegis-contracts/deployed.json
+aegis-contracts/.secret
+
+# ── Android build outputs ────────────────────────────────
+*.apk
+*.aab
+*.dex
+*.hprof
+aegis-android/.gradle/
+aegis-android/build/
+aegis-android/app/build/
+aegis-android/local.properties
+aegis-android/.idea/
+aegis-android/**/*.iml
+aegis-android/captures/
+aegis-android/.externalNativeBuild/
+aegis-android/.cxx/
+
+# ── Python backend ───────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+aegis-backend/venv/
+aegis-backend/.venv/
+aegis-backend/env/
+aegis-backend/dist/
+aegis-backend/build/
+aegis-backend/*.egg-info/
+aegis-backend/.pytest_cache/
+aegis-backend/reports/*.pdf
+aegis-backend/reports/*.json
+
+# ── Node / Hardhat ───────────────────────────────────────
+node_modules/
+aegis-contracts/artifacts/
+aegis-contracts/cache/
+aegis-contracts/typechain-types/
+aegis-contracts/coverage/
+aegis-contracts/coverage.json
+
+# ── Docker ───────────────────────────────────────────────
+aegis-backend/postgres-data/
+
+# ── OS files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ── IDE ──────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

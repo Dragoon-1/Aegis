@@ -1,0 +1,17 @@
+# OISD basic — Ads, trackers, malware
+# Last updated: bundled with APK
+tracking-pixel.com
+ad-delivery-network.com
+user-tracking-analytics.net
+malicious-redirect.com
+crypto-miner-script.net
+clickjacking-overlay.com
+fake-antivirus-scan.net
+tech-support-scam.com
+lottery-winner-claim.net
+nigerian-prince-offer.com
+fake-shopping-deals.net
+phishing-redirect.com
+malware-c2-server.net
+data-harvester.com
+credential-stealer.net

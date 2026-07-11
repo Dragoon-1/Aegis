@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aegis</string>
+    <string name="app_tagline">Next-Gen Mobile Security</string>
+
+    <!-- Accessibility service (required by manifest + accessibility_service_config.xml) -->
+    <string name="accessibility_service_label">Aegis Anti-Clickjack Shield</string>
+    <string name="accessibility_service_desc">Aegis monitors for transparent overlay windows placed over your apps. This detects clickjacking attacks that trick you into granting permissions you never intended. No personal data is read or transmitted.</string>
+
+    <!-- Dashboard -->
+    <string name="status_protected">PROTECTED</string>
+    <string name="status_at_risk">AT RISK</string>
+    <string name="modules_active">%1$d of 4 modules active</string>
+    <string name="threats_detected">Threats Detected</string>
+    <string name="dns_blocked">DNS Blocked</string>
+    <string name="sms_scanned">SMS Scanned</string>
+    <string name="recent_threats">Recent Threats</string>
+    <string name="no_threats">No threats detected — you\'re clean!</string>
+    <string name="protection_modules">Protection Modules</string>
+
+    <!-- Modules -->
+    <string name="module_vpn">Micro-VPN Shield</string>
+    <string name="module_vpn_desc">Block malicious domains system-wide</string>
+    <string name="module_honeytoken">Honey-Token Canary</string>
+    <string name="module_honeytoken_desc">Trap files that catch ransomware</string>
+    <string name="module_sms">SMS Phishing Filter</string>
+    <string name="module_sms_desc">Detect smishing before you tap</string>
+    <string name="module_permissions">Permission Auditor</string>
+    <string name="module_permissions_desc">Identify dangerous app combinations</string>
+    <string name="module_blockchain">Blockchain Threat Sharing</string>
+    <string name="module_blockchain_desc">Warn the community anonymously</string>
+    <string name="module_antickjack">Anti-Clickjack Shield</string>
+    <string name="module_anticlick_desc">Block overlay attacks on your screen</string>
+
+    <!-- Notifications -->
+    <string name="notif_threat_title">Security Threat Detected</string>
+    <string name="notif_vpn_title">Aegis Shield Active</string>
+    <string name="notif_honeytrap_triggered">Honey-Token Triggered</string>
+
+    <!-- Assistant -->
+    <string name="assistant_greeting">Hello! I\'m your Aegis security assistant. Ask me anything about mobile security, threats, or what to do if you\'ve been targeted.</string>
+    <string name="assistant_placeholder">Ask about security…</string>
+    <string name="assistant_thinking">Thinking…</string>
+    <string name="select_language">Select Language</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="section_modules">Protection Modules</string>
+    <string name="section_preferences">Preferences</string>
+    <string name="section_reporting">Cyber Police Reporting</string>
+    <string name="section_about">About</string>
+    <string name="generate_report">Generate Police Report PDF</string>
+    <string name="report_success">Report queued. Check /reports/ folder on server.</string>
+    <string name="report_error">Could not reach backend server.</string>
+
+    <!-- Threats -->
+    <string name="threats_title">Threat History</string>
+    <string name="filter_all">All</string>
+    <string name="mark_resolved">Mark Resolved</string>
+    <string name="no_threats_filter">No threats found for this filter.</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">Permission Auditor</string>
+    <string name="scanning_apps">Scanning all installed apps…</string>
+    <string name="no_risky_apps">No risky apps found!</string>
+    <string name="why_risky">Why this is risky:</string>
+    <string name="dangerous_perms">Dangerous permissions:</string>
+
+    <!-- About -->
+    <string name="app_version">1.0.0 (MVP)</string>
+    <string name="blockchain_info">Polygon PoS — AegisThreatIntel.sol</string>
+    <string name="ai_engine">Claude claude-sonnet-4-6 (Anthropic)</string>
+    <string name="dns_sources">abuse.ch · PhishTank · OISD</string>
+    <string name="privacy_policy">Zero cloud scanning. All data stays on device.</string>
+</resources>

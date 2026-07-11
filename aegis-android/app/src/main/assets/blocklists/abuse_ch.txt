@@ -1,0 +1,17 @@
+# abuse.ch URLhaus — Malware distribution domains
+# Last updated: bundled with APK
+malware-download.com
+malware-domain.com
+evil-download.net
+ransomware-c2.com
+trojan-payload.net
+botnet-c2-server.com
+cryptolocker-payment.net
+spyware-install.com
+keylogger-drop.net
+rat-c2-panel.com
+phishing-kit-download.com
+exploit-kit-landing.net
+drive-by-download.com
+malvertising-redirect.net
+fake-update-download.com

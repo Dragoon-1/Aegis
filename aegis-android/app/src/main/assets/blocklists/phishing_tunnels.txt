@@ -1,0 +1,117 @@
+# Tunneling & phishing infrastructure domains
+# These are commonly abused by phishing tools like CamPhish, Zphisher, etc.
+# Last updated: 2026-07-07
+
+# ── ngrok tunneling ──────────────────────────────────────────
+ngrok.io
+ngrok.app
+ngrok-free.app
+ngrok-free.dev
+
+# ── Cloudflare tunnels ──────────────────────────────────────
+trycloudflare.com
+
+# ── serveo / localhost exposure ──────────────────────────────
+serveo.net
+localhost.run
+localtunnel.me
+loca.lt
+
+# ── Other tunneling services ────────────────────────────────
+pagekite.me
+teleconsole.com
+portmap.io
+localxpose.io
+tunnelto.dev
+bore.pub
+playit.gg
+tunnel.pyjam.as
+localhost.direct
+expose.sh
+burrow.io
+packetriot.com
+staqlab-tunnel.com
+relay.firefox.com
+openport.io
+
+# ── URL shorteners abused for phishing ──────────────────────
+bit.ly
+tinyurl.com
+is.gd
+v.gd
+shorturl.at
+cutt.ly
+rb.gy
+t.ly
+shrtco.de
+tiny.cc
+
+# ── Free hosting abused for phishing ────────────────────────
+000webhostapp.com
+infinityfreeapp.com
+rf.gd
+epizy.com
+freenom.com
+ml
+tk
+cf
+ga
+gq
+web.app
+firebaseapp.com
+herokuapp.com
+glitch.me
+vercel.app
+netlify.app
+pages.dev
+workers.dev
+replit.co
+repl.co
+gitpod.io
+codespace.dev
+surge.sh
+render.com
+fly.dev
+railway.app
+
+# ── Dynamic DNS abused for phishing ─────────────────────────
+duckdns.org
+no-ip.com
+no-ip.org
+ddns.net
+hopto.org
+zapto.org
+sytes.net
+redirectme.net
+serveftp.com
+servegame.com
+servehttp.com
+servebeer.com
+servecounterstrike.com
+serveminecraft.net
+myftp.biz
+myftp.org
+myvnc.com
+bounceme.net
+myddns.me
+dynu.com
+dynu.net
+freedns.afraid.org
+changeip.com
+mooo.com
+
+# ── Known CamPhish / Zphisher patterns ──────────────────────
+# CamPhish typically uses serveo.net or ngrok tunnels
+# Zphisher uses various free hosting + tunnels
+# SocialPhish uses ngrok
+# These are already covered above
+
+# ── IP geolocation / info leak services (used in phishing) ──
+grabify.link
+iplogger.org
+iplogger.com
+iplogger.ru
+2no.co
+yip.su
+ipgrabber.ru
+blasze.tk

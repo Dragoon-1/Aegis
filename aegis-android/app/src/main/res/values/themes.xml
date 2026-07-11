@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme — Aegis always uses dark mode -->
+    <style name="Theme.Aegis" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/aegis_purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/aegis_teal</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="colorSurface">@color/aegis_surface</item>
+        <item name="android:windowBackground">@color/aegis_bg_deep</item>
+        <item name="android:statusBarColor">@color/aegis_bg_deep</item>
+        <item name="android:navigationBarColor">@color/aegis_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.Aegis.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/aegis_bg_deep</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_aegis_shield</item>
+        <item name="postSplashScreenTheme">@style/Theme.Aegis</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+# PhishTank — Phishing domains
+# Last updated: bundled with APK
+login-verify-account.com
+secure-banking-update.net
+paypal-verify-identity.com
+apple-id-locked-verify.com
+amazon-order-confirm.net
+netflix-billing-update.com
+microsoft-365-verify.net
+google-security-alert.com
+facebook-login-verify.net
+instagram-verify-badge.com
+whatsapp-verify-number.net
+bank-of-india-secure.com
+sbi-kyc-update.net
+hdfc-verify-account.com
+icici-secure-login.net

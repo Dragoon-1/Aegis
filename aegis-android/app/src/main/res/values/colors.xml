@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aegis_purple">#534AB7</color>
+    <color name="aegis_purple_light">#8B7FF5</color>
+    <color name="aegis_purple_dark">#2E276E</color>
+    <color name="aegis_teal">#0F6E56</color>
+    <color name="aegis_teal_light">#1DB48B</color>
+    <color name="aegis_coral">#E05C30</color>
+    <color name="aegis_amber">#BA7517</color>
+    <color name="aegis_green">#2D9E5F</color>
+    <color name="aegis_bg_deep">#0D0D1A</color>
+    <color name="aegis_surface">#12122A</color>
+    <color name="aegis_surface_var">#1C1C35</color>
+    <color name="aegis_on_bg">#E8E8F0</color>
+    <color name="aegis_subtext">#8888AA</color>
+    <color name="aegis_outline">#3A3A5C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
