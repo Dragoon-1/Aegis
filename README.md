@@ -232,31 +232,6 @@ SHA-256 is computationally infeasible to reverse — raw indicators can never be
 
 ---
 
-## 📅 20-Day Build Plan
-
-| Phase | Days | Status |
-|---|---|---|
-| 1. Foundation — Android project, backend, DB, CI/CD | 1–3   | ✅ Done |
-| 2. Honey-Token Engine | 4–7   | ✅ Done |
-| 3. Micro-VPN + DNS Sinkhole | 8–10  | ✅ Done |
-| 4. SMS Filter + Permission Auditor + Anti-Clickjack | 11–13 | ✅ Done |
-| 5. Threat Intelligence + Police Reports | 14–16 | ✅ Done |
-| 6. AI Assistant + Multilingual | 17–18 | ✅ Done |
-| 7. Testing + APK build | 19–20 | 🔲 Remaining |
-
----
-
-## 🧪 Testing the Honey-Token System
-
-```bash
-# 1. Install the app and enable Honey-Token Canary
-# 2. On your device, use a file manager to navigate to:
-#    Android/data/com.aegis.security/files/
-# 3. Open any file starting with "!" or "000_"
-# 4. Aegis should fire a HIGH severity notification within 1 second
-# 5. Check Threat History screen — event is logged
-```
-
 ---
 
 ## 🛠️ Tech Stack
